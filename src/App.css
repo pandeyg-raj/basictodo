@@ -1,0 +1,106 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: #2046b6ec;
+  color: white;
+}
+
+.entry,
+.brand {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.entry input,
+button {
+  font-size: 1.9rem;
+  border: none;
+  padding: 0.5rem;
+  background-color: white;
+}
+.entry button {
+  cursor: pointer;
+  color: #2046b6ec;
+  transition: all 0.5s ease;
+}
+.plane {
+  padding: 0.2rem;
+}
+.entry button:hover {
+  background: #2046b6ec;
+  color: white;
+}
+
+.select {
+  font-size: 1.2rem;
+  padding: 1rem;
+  border: none;
+  color: #2046b6ec;
+  margin-left: 2rem;
+}
+
+option {
+  font-size: 1rem;
+}
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.todo {
+  display: flex;
+  font-size: 1.4rem;
+  margin: 0.5rem;
+  background: white;
+  max-width: 50vw;
+  max-height: 10vw;
+  overflow: scroll;
+}
+
+.check {
+  color: green;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.trash {
+  color: red;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.trashbutton:hover {
+  background: red;
+}
+
+.checkbutton:hover {
+  background: green;
+}
+
+.checkbutton:hover .check {
+  color: white;
+}
+.trashbutton:hover .trash {
+  color: white;
+}
+
+.todo-list {
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+  background-color: white;
+  width: 100%;
+  color: black;
+}
+.completed {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
