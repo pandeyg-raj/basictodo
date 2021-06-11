@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <Fanito />
-      <h1>To do</h1>
+      <h2>To do by ~stefania</h2>
       <Entry
         inputText={inputText}
         todos={todos}
