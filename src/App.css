@@ -8,6 +8,28 @@ body {
   color: white;
 }
 
+.fani {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+#faniid {
+  animation: aniindflag 4s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+@keyframes aniindflag {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
 .entry,
 .brand {
   min-height: 20vh;

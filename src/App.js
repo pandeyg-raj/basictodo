@@ -2,6 +2,7 @@ import "./App.css";
 import React, { useState, useEffect } from "react";
 import Entry from "./Entry";
 import Todolist from "./Todolist";
+import Fanito from "./Fanito";
 
 function App() {
   const [inputText, setInputText] = useState("");
@@ -46,7 +47,7 @@ function App() {
   };
   return (
     <div className="App">
-      <h1 className="brand"> To do </h1>
+      <Fanito />
       <Entry
         inputText={inputText}
         todos={todos}
