@@ -67,6 +67,9 @@ option {
   .todo {
     max-width: 90vw;
   }
+  .todo-input {
+    max-width: 80vw;
+  }
 }
 .check {
   color: green;
