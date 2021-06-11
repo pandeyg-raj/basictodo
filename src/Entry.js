@@ -21,6 +21,7 @@ function Entry({ setStatus, inputText, setInputText, todos, setTodos }) {
   return (
     <form className="entry">
       <input
+        placeholder="escribe tu actividad aquí"
         value={inputText}
         onChange={inputTextHandler}
         type="text"

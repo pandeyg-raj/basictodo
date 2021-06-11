@@ -48,6 +48,7 @@ function App() {
   return (
     <div className="App">
       <Fanito />
+      <h1>To do</h1>
       <Entry
         inputText={inputText}
         todos={todos}

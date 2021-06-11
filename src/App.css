@@ -8,7 +8,8 @@ body {
   color: white;
 }
 
-.fani {
+.fani,
+h1 {
   display: flex;
   justify-content: center;
   align-items: center;
