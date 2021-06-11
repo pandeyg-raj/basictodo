@@ -67,10 +67,6 @@ option {
   .todo {
     max-width: 90vw;
   }
-  .entry {
-    flex-direction: column;
-    justify-content: space-around;
-  }
 }
 .check {
   color: green;
