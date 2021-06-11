@@ -20,15 +20,17 @@ function Entry({ setStatus, inputText, setInputText, todos, setTodos }) {
 
   return (
     <form className="entry">
-      <input
-        value={inputText}
-        onChange={inputTextHandler}
-        type="text"
-        className="todo-input"
-      />
-      <button onClick={submitTodoHandler}>
-        <FontAwesomeIcon className="plane" icon={faPaperPlane} />
-      </button>
+      <div className="entrysubmit">
+        <input
+          value={inputText}
+          onChange={inputTextHandler}
+          type="text"
+          className="todo-input"
+        />
+        <button onClick={submitTodoHandler}>
+          <FontAwesomeIcon className="plane" icon={faPaperPlane} />
+        </button>
+      </div>
       <div className="filter">
         <select onChange={statusHandler} name="todos" className="select">
           <option value="all">All</option>

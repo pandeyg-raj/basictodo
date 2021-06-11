@@ -59,12 +59,17 @@ option {
   font-size: 1.2rem;
   margin: 0.5rem;
   background: white;
-  max-width: 70vw;
+  max-width: 80vw;
+  max-height: 30vw;
   overflow: scroll;
 }
 @media (max-width: 1000px) {
   .todo {
     max-width: 90vw;
+  }
+  .entry {
+    flex-direction: column;
+    justify-content: space-around;
   }
 }
 .check {
